@@ -16,8 +16,8 @@ modules/folder).
 1. Take a moment to ensure that you have set your store's domain and the WHMCS System URL under **whmcs/admin > Setup > General Settings**.
 2. Create a "Legacy API Key" in your BitPay merchant account dashboard:
   * Log into https://bitpay.com with your account username/password.
-  * On the left side of the screen, choose **Settings**.
-  * The menu will expand downward revealing a list of options. Choose the **Legacy API Keys** option.
+  * On the left side of the screen, choose **Payment Tools**.
+  * Under **Integration Resources**, choose the **Legacy API Keys** option.
   * On the right side of the page, click on the grey **+ Add New API Key** button to instantly create a new one.
   * Select and copy the entire string for the new API Key ID that you just created. It will look something like this: 43rp4rpa24d6Bz4BR44j8zL44PrU4npVv4DtJA4Kb8.
 3. In the admin control panel, go to **Setup > Payment Gateways**, select **Bit-pay** in the list of modules and click **Activate**.
